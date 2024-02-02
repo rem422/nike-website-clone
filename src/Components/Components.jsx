@@ -1,10 +1,10 @@
 import Navbar from './Navbar/Navbar';
 import Hero from './Hero/Hero';
-import PopularProducts from './PopularProducts/PopularProducts';
-import SuperQuality from './SuperQuality/SuperQuality';
+import Products from './Products/Products';
+import Quality from './Quality/Quality';
 import Services from './Services/Services';
 import SpecialOffer from './SpecialOffer/SpecialOffer';
-import CustomerReviews from './CustomerReviews/CustomerReviews';
+import Reviews from './Reviews/Reviews';
 import Subscribe from './Subscribe/Subscribe';
 import Footer from './Footer/Footer';
 
@@ -16,10 +16,10 @@ const Components = () => {
             <Hero/>
         </section>
         <section className="padding">
-            <PopularProducts />
+            <Products />
         </section>
         <section className="padding">
-            <SuperQuality />
+            <Quality />
         </section>
         <section className="padding-x py-10">
             <Services />
@@ -28,7 +28,7 @@ const Components = () => {
             <SpecialOffer />
         </section>
         <section className="bg-pale-blue padding">
-            <CustomerReviews />
+            <Reviews />
         </section>
         <section className="padding-x sm:py-32 py-16 w-full">
             <Subscribe />
