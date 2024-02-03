@@ -1,6 +1,6 @@
 import headerLogo from "../../assets/images/header-logo.svg";
 import hamburger from "../../assets/icons/hamburger.svg";
-import { navLinks } from "../../Constants/index";
+import { navLinks } from "../Constants/index";
 
 const Navbar = () => {
   return (
