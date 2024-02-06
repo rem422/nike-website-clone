@@ -7,6 +7,7 @@ import SpecialOffer from './SpecialOffer/SpecialOffer';
 import Reviews from './Reviews/Reviews';
 import Subscribe from './Subscribe/Subscribe';
 import Footer from './Footer/Footer';
+import ScrollTop from "./ScrollTop/ScrollTop";
 
 const Components = () => {
   return (
@@ -36,6 +37,7 @@ const Components = () => {
         <section className="bg-black padding-x padding-t pb-8">
             <Footer />
         </section>
+            <ScrollTop />
     </main>
   )
 }

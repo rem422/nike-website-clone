@@ -21,6 +21,22 @@
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
+
+  .showMenu {
+    @apply bg-white block fixed items-center top-[90px] left-0 right-0 w-[90%] h-max my-0 mx-auto rounded-2xl shadow-2xl text-center transition-all duration-300 z-[1000] lg:block;
+  }
+
+  .hideMenu {
+    @apply bg-white block fixed items-center top-[90px] left-0 right-[-500%] w-[90%] h-max my-0 mx-auto rounded-2xl shadow-2xl text-center transition-all duration-300 z-[1000] lg:block;
+  }
+
+  .scrollBtn {
+    @apply fixed flex justify-center items-center h-[43px] w-[43px] bg-coral-red right-[30px] bottom-[10px] leading-[45px] text-white z-10 text-2xl rounded-full cursor-pointer opacity-0 pointer-events-none transition
+  }
+
+  .scrollBtnActive {
+    @apply fixed flex justify-center items-center h-[43px] w-[43px] bg-coral-red right-[30px] bottom-[30px] leading-[45px] text-white z-10 text-2xl rounded-full cursor-pointer opacity-100 pointer-events-auto transition
+  }
 }
 
 @layer utilities {
